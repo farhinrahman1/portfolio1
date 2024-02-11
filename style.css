@@ -100,16 +100,16 @@ main hr{
     width:400px;
     border-radius: 1rem;
 }
-.right-about{
-    font-size: 1.25rem;
+p{
+    font-size: 120%;
     margin: 0 0 0 50px;
 }
-.right-about h4{
+h3{
     font-weight: normal;
     margin-top: 50px;
     padding-left: 0px;
 }
-.right-about h2{
+h2{
     font-style: italic;
 }
 .section-four .box{
@@ -152,6 +152,7 @@ main hr{
 footer{
     background-color: black;
     height: 300px;
+    margin-bottom: 0;
     /* margin-top: 1400px; */
 }
 .footer{
@@ -172,23 +173,27 @@ footer{
 .footer ul li a{
     text-decoration: none;
     background-color: rgba(173, 110, 149, 0.781);
-  color: black;
+  color: white;
   border: 2px solid black;
-  padding: 6%;
+  padding: 8%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 150%;
+  width: 198%;
   border-radius: 1rem;
 }
 .footer ul li a:hover{
-    color: white;    
+    color: black;    
 }
 .footer-second{
     margin-right:22%;
 }
 .footer-third img{
     width: 20%;
+}
+.footer-second p{
+    font-size: 120%;
+    margin: 0px 50px 0px 50px;
 }
 .section-five{
     margin-top: 55%;
